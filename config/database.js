@@ -27,3 +27,4 @@ const UserSchema=new moongose.Schema({
 const Usermodel=moongose.model('user',UserSchema);
 
 module.exports=Usermodel;
+module.exports=ConnectToDB;
